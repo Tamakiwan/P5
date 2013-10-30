@@ -12,7 +12,7 @@ def sumarListaPares(lista):
     return sum
 # -----------------------------------------------------
 # -----------------------------------------------------
-def sumarListaPares(lista):
+def sumarListaInpares(lista):
 sum=0
 for i in range(0,len(lista)):
 if lista[i] % 2 == 0:
