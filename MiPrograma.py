@@ -3,6 +3,7 @@ import random
  
 # -----------------------------------------------------
 # -----------------------------------------------------
+# Comentario : Pares
 def sumarListaPares(lista):
     sum=0
     for i in range(0,len(lista)):
@@ -12,7 +13,7 @@ def sumarListaPares(lista):
     return sum
 # -----------------------------------------------------
 # -----------------------------------------------------
-def sumarListaInpares(lista):
+def sumarListaImpares(lista):
 sum=0
 for i in range(0,len(lista)):
 if lista[i] % 2 == 0:
