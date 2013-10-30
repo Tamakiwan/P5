@@ -5,7 +5,7 @@ def Decimal2Binario(decimal):
         binario = str(decimal % 2) + binario
         decimal = decimal // 2
     return str(decimal) + binario
-
+# Comentario : De Binario a Decimal
 def Binario2Decimal(binario):
 	n=len(binario)
 	valor=0
