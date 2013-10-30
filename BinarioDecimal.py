@@ -5,3 +5,11 @@ def Decimal2Binario(decimal):
         decimal = decimal // 2
     return str(decimal) + binario
 
+def Binario2Decimal(binario):
+	n=len(binario)
+	valor=0
+	for bit in binario:
+		if bit == "l"
+			valor=valor+2**(n-1)
+		n -=1
+	return valor
