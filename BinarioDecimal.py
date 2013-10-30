@@ -1,3 +1,4 @@
+#Pasar de Decimal a Binario
 def Decimal2Binario(decimal):
     binario = ''
     while decimal // 2 != 0:
